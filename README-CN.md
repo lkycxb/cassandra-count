@@ -43,7 +43,7 @@ java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table stude
 java -Xmx2G -jar cassandra-count-0.0.1.jar -keyspace test -table student
 ```
 
-## Usage
+## 使用方法
 ```
 java -jar cassandra-count-0.0.1.jar
 usage: CountJob
@@ -61,13 +61,16 @@ usage: CountJob
 -username <arg>           username
 ```
 
-## Examples
+## 示例
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 10
 java -jar cassandra-count-0.0.1.jar -hosts 192.168.1.2,192.168.1.3 -p 9042 -keyspace test -table student -s 100
 
-## Note
-When the amount of data is too large, the splitsize parameter value can be increased
+## 注意
+当数据记录特别大时,可通过增加splitsize参数值,以增查询次数,如100000:
 ```
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 100000
 ```
 
+## 联系
+微信:lkycxb
+Mail:xbings@163.com
