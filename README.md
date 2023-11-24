@@ -12,8 +12,8 @@ Spark.  This is useful for simple debugging of loading data (and other
 data quality tasks).When the data is large enough, such as 3billion,
 the query timeout exception will occur when using spark+cassandra. 
 In addition, using spark+cassandra to query is like SQL statement 
-'select * from<table>', which wastes query performance. This tool 
-uses 'select<partition key>from<table>' to optimize.
+'select * from [table]', which wastes query performance. This tool 
+uses 'select [partition key] from [table]' to optimize.
 
 ## Getting it
 ### Downloading
