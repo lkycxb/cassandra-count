@@ -74,5 +74,7 @@ When the amount of data is too large, the splitsize parameter value can be incre
 ```
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 100000
 ```
-
+## Contact
+微信:lkycxb
+Mail:xbings@163.com
 
