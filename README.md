@@ -25,8 +25,8 @@ Get it with wget:
 wget https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
 ```
 
-You can change the permissions on that file to executable and execute it directly.
-It is also a proper jar file so you can also run via
+### Run 
+The jar file so you can also run via
 ```
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student
 ```
@@ -45,7 +45,7 @@ All of the dependencies are included (namely, the Java driver - currently
 version 3.0.0).  The output will be the cassandra-loader executable
 in the build directory.  
 
-###Usage
+### Usage
 ```
 java -jar cassandra-count-0.0.1.jar
 usage: CountJob
@@ -63,9 +63,9 @@ usage: CountJob
 -username <arg>           username
 ```
 
-##Examples
+### Examples
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 10
 java -jar cassandra-count-0.0.1.jar -hosts 192.168.1.2,192.168.1.3 -p 9042 -keyspace test -table student -s 100000
 
-###Note
+### Note
 When the amount of data is too large, the splitsize parameter value can be increased
