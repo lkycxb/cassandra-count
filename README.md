@@ -28,17 +28,18 @@ wget https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassa
 You can change the permissions on that file to executable and execute it directly.
 It is also a proper jar file so you can also run via
 ```
-java -jar cassandra-count-0.0.1.jar
+java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student
 ```
 And add whatever extra arguments you want. For example:
 ```
-java -Xmx2G -jar cassandra-count-0.0.1.jar
+java -Xmx2G -jar cassandra-count-0.0.1.jar -keyspace test -table student
 
 ### Building
 To build this repository, simply clone this repo and run:
 ```
 mvn clean package -DskipTests=true
 ```
+
 All of the dependencies are included (namely, the Java driver - currently
 version 3.0.0).  The output will be the cassandra-loader executable
 in the build directory.  
