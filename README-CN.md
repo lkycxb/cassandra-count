@@ -9,8 +9,8 @@
 Spark确实是适合Cassandra的各种操作,这个程序的不依赖Spark的一个轻量级的计数器,
 和Spark相比,该程序在一些方面做了优化,比如Spark加载数据是记录的所有字段都读取,
 对于只需要统计记录数的功能来说完全是浪费性能的,该程序只读取Partition Key对应的字段,
-然后计数.如Spark读取相当于SQL:'select * from<table>',该程序读取时的SQL:
-'select <partition key> from<table>'.
+然后计数.如Spark读取相当于SQL:'select * from [table]',该程序读取时的SQL:
+'select [partition key] from [table]'.
 
 ## 获得程序
 ### 直接下载
