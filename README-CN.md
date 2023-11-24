@@ -33,7 +33,7 @@ cd cassandra-count
 mvn clean package -DskipTests=true
 ```
 
-### 运行 
+## 运行 
 Jar文件可通过如下命令运行:
 ```
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student
@@ -43,7 +43,7 @@ java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table stude
 java -Xmx2G -jar cassandra-count-0.0.1.jar -keyspace test -table student
 ```
 
-### Usage
+## Usage
 ```
 java -jar cassandra-count-0.0.1.jar
 usage: CountJob
@@ -61,11 +61,11 @@ usage: CountJob
 -username <arg>           username
 ```
 
-### Examples
+## Examples
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 10
 java -jar cassandra-count-0.0.1.jar -hosts 192.168.1.2,192.168.1.3 -p 9042 -keyspace test -table student -s 100
 
-### Note
+## Note
 When the amount of data is too large, the splitsize parameter value can be increased
 ```
 java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table student -s 100000
