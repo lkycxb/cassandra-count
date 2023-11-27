@@ -18,17 +18,17 @@ uses 'select [partition key] from [table]' to optimize.
 ## Getting it
 ### Downloading
 This utility has already been built, and is available at
-https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
+https://github.com/lkycxb/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
 
 Get it with wget:
 ```
-wget https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
+wget https://github.com/lkycxb/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
 ```
 
 ### Building
 Clone code:
 ```
-git clone https://github.com/topbinlab/cassandra-count.git
+git clone https://github.com/lkycxb/cassandra-count.git
 ```
 
 To build this repository, simply clone this repo and run:
