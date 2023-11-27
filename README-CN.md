@@ -15,17 +15,17 @@ Spark确实是适合Cassandra的各种操作,这个程序的不依赖Spark的一
 ## 获得程序
 ### 直接下载
 此实用程序已预编译，可在下面链接找到:
-https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
+https://github.com/lkycxb/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
 
 使用wget下载:
 ```
-wget https://github.com/topbinlab/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
+wget https://github.com/lkycxb/cassandra-count/releases/download/v0.0.1/cassandra-count-0.0.1.jar
 ```
 
 ### 编译
 从仓库克隆该代码:
 ```
-git clone https://github.com/topbinlab/cassandra-count.git
+git clone https://github.com/lkycxb/cassandra-count.git
 ```
 编译:
 ```
