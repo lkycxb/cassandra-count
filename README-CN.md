@@ -1,7 +1,4 @@
 # cassandra-count
-计算Cassandra数据加的记录行数
-
-
 计算Cassandra表中记录数的简单程序。
 
 通过使用splitSize参数分割令牌范围，您可以减少每个查询计数的数量以降低超时次数的概率.
@@ -73,4 +70,5 @@ java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table stude
 
 ## 联系
 微信:lkycxb
-Mail:xbings@163.com
+
+mail:xbings@163.com
