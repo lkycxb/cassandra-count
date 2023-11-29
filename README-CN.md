@@ -70,5 +70,4 @@ java -jar cassandra-count-0.0.1.jar -hosts 127.0.0.1 -keyspace test -table stude
 
 ## 联系
 微信:lkycxb
-
-mail:xbings@163.com
+邮箱:lkycxb@163.com
